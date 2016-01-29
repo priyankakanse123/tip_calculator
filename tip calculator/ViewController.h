@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+@property IBOutlet UILabel *value;
+@property IBOutlet UITextField *user;
+@property IBOutlet UILabel *slidervalue;
+@property IBOutlet UISlider *slider;
 
+-(IBAction)calculate:(id)sender;
+-(IBAction)sliderChange:(id)sender;
 @end
 

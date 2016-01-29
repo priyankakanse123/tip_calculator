@@ -15,6 +15,7 @@
 		0A06DD231C2A6AE800C653AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A06DD211C2A6AE800C653AD /* LaunchScreen.storyboard */; };
 		0A06DD2E1C2A6AE800C653AD /* tip_calculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A06DD2D1C2A6AE800C653AD /* tip_calculatorTests.m */; };
 		0A06DD391C2A6AE900C653AD /* tip_calculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A06DD381C2A6AE900C653AD /* tip_calculatorUITests.m */; };
+		0A06F6C11C2A787500B7996E /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A06F6C01C2A787500B7996E /* button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0A06DD341C2A6AE900C653AD /* tip calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tip calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A06DD381C2A6AE900C653AD /* tip_calculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tip_calculatorUITests.m; sourceTree = "<group>"; };
 		0A06DD3A1C2A6AE900C653AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A06F6C01C2A787500B7996E /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		0A06DD121C2A6AE800C653AD /* tip calculator */ = {
 			isa = PBXGroup;
 			children = (
+				0A06F6C01C2A787500B7996E /* button.png */,
 				0A06DD161C2A6AE800C653AD /* AppDelegate.h */,
 				0A06DD171C2A6AE800C653AD /* AppDelegate.m */,
 				0A06DD191C2A6AE800C653AD /* ViewController.h */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A06DD231C2A6AE800C653AD /* LaunchScreen.storyboard in Resources */,
+				0A06F6C11C2A787500B7996E /* button.png in Resources */,
 				0A06DD201C2A6AE800C653AD /* Assets.xcassets in Resources */,
 				0A06DD1E1C2A6AE800C653AD /* Main.storyboard in Resources */,
 			);
@@ -498,6 +502,7 @@
 				0A06DD3F1C2A6AE900C653AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A06DD401C2A6AE900C653AD /* Build configuration list for PBXNativeTarget "tip calculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +511,7 @@
 				0A06DD421C2A6AE900C653AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A06DD431C2A6AE900C653AD /* Build configuration list for PBXNativeTarget "tip calculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +520,7 @@
 				0A06DD451C2A6AE900C653AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
